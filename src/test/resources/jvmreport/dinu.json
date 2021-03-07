@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18349580136,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.launBro()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "validating login function correct password and correct user name",
+        "description": "",
+        "id": "validating-login-function-of-fb;validating-login-function-correct-password-and-correct-user-name",
+        "after": [
+          {
+            "result": {
+              "duration": 1194124839,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 327691,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user enter on fb login page",
+            "match": {
+              "location": "StepDefi.user_enter_on_fb_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1185100566,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter username and password",
+            "match": {
+              "location": "StepDefi.user_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 558570437,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click login button",
+            "match": {
+              "location": "StepDefi.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57262,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should login validate page",
+            "match": {
+              "location": "StepDefi.user_should_login_validate_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validating login function of fb",
+    "description": "",
+    "id": "validating-login-function-of-fb",
+    "keyword": "Feature",
+    "uri": "src/test/resources/login.feature",
+    "tags": []
+  }
+]
